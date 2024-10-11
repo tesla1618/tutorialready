@@ -23,6 +23,10 @@ const Navbar = () => {
     { name: "Contact", href: "/contact" },
   ];
 
+  const handleDropdownToggle = (index) => {
+    setDropdownIndex(dropdownIndex === index ? null : index);
+  };
+
   return (
     <nav className="bg-white shadow-md fixed w-full z-50 transition-all duration-300 ease-in-out">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,14 +44,17 @@ const Navbar = () => {
             {navigation.map((item, index) => (
               <div key={item.name} className="relative">
                 {item.dropdown ? (
-                  <div
-                    className="relative"
-                    onMouseEnter={() => setDropdownIndex(index)}
-                    onMouseLeave={() => setDropdownIndex(null)}
-                  >
-                    <button className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors duration-300">
+                  <div>
+                    <button
+                      onClick={() => handleDropdownToggle(index)}
+                      className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium flex items-center transition-colors duration-300"
+                    >
                       {item.name}
-                      <ChevronDown className="ml-1 h-4 w-4" />
+                      <ChevronDown
+                        className={`ml-1 h-4 w-4 transition-transform duration-300 ${
+                          dropdownIndex === index ? "rotate-180" : ""
+                        }`}
+                      />
                     </button>
                     {dropdownIndex === index && (
                       <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 animate-fade-in">
