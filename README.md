@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TutorialReady
 
-## Getting Started
+**TutorialReady** is an online learning platform designed to provide students, instructors, and other users with access to high-quality educational content, live classes, and a community for collaborative learning. This project is a robust and user-friendly platform that facilitates seamless course management, resource sharing, and real-time communication between users.
 
-First, run the development server:
+This project is built for a client and is licensed under the **GNU Affero General Public License v3.0 (AGPL)**, ensuring that all modifications and improvements made to the platform must also be shared under the same license when distributed.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Main Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Home Page**: Provides an overview of the platform, featured courses, live classes, testimonials, and a call-to-action for users to sign up and browse courses.
+- **Courses Page**: Displays a list of available courses with search and filter functionality, allowing users to browse courses by category, level, and more.
+- **Course Detail Page**: Offers detailed information about each course, including syllabus, instructor profile, user reviews, and recommendations for related courses.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Live Classes
 
-## Learn More
+- **Live Classes Page**: Lists upcoming live classes with details such as date, time, instructor, and a registration option.
+- **Calendar Integration**: Users can easily schedule live classes using calendar integration.
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Resources Page**: Provides a section for downloadable resources such as worksheets and eBooks, with search and category filters for easier navigation.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Articles
 
-## Deploy on Vercel
+- **Articles Page**: A section dedicated to educational articles, allowing users to explore articles by tags, categories, and featured content.
+- **Single Article Page**: Displays the full article content along with author information, a comment section, and related articles.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 5. Additional Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **About Us Page**: Shares the platform's mission, team information, and affiliations.
+- **Contact Us Page**: A contact form for inquiries, along with support information and a FAQ section.
+- **Sign Up Page**: Allows users to register with role-based access (student, guardian, instructor, etc.), and includes email validation and confirmation.
+- **Login Page**: Facilitates user authentication with password recovery options.
+
+## License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL)**. Please refer to the `LICENSE` file for detailed information.
+
+## Note
+
+This platform is part of a project developed for a client, and all contributions and improvements made to the codebase must adhere to the conditions outlined in the AGPL license.
