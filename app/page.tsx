@@ -243,43 +243,43 @@ export default function HomePage() {
       </section>
 
       {/* Live Classes Section */}
-      <section className="py-16 bg-white">
+      <section className="py-8 sm:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
               Upcoming Live Classes
             </h2>
-            <p className="mt-4 text-xl text-gray-600">
+            <p className="mt-2 sm:mt-4 text-lg sm:text-xl text-gray-600">
               Join interactive sessions with expert instructors
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8">
             {upcomingClasses.map((class_) => (
               <div
                 key={class_.id}
-                className="bg-gray-50 rounded-xl p-6 shadow-lg"
+                className="bg-gray-50 rounded-lg p-4 sm:p-6 shadow-lg"
               >
-                <div className="flex items-center space-x-4">
+                <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
                   <div className="flex-shrink-0">
                     <img
                       src={class_.image}
                       alt={class_.title}
-                      className="w-24 h-24 rounded-lg object-cover"
+                      className="w-20 h-20 sm:w-24 sm:h-24 rounded-lg object-cover"
                     />
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-gray-900">
+                  <div className="flex-1 text-center sm:text-left">
+                    <h3 className="text-lg sm:text-xl font-semibold text-gray-900">
                       {class_.title}
                     </h3>
                     <p className="text-gray-600">
                       Instructor: {class_.instructor}
                     </p>
-                    <div className="mt-2 flex items-center space-x-4">
-                      <div className="flex items-center text-gray-500">
+                    <div className="mt-2 flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-sm text-gray-500">
+                      <div className="flex items-center mb-1 sm:mb-0">
                         <Calendar className="h-4 w-4 mr-1" />
                         {class_.date}
                       </div>
-                      <div className="flex items-center text-gray-500">
+                      <div className="flex items-center">
                         <Clock className="h-4 w-4 mr-1" />
                         {class_.time}
                       </div>
@@ -287,7 +287,7 @@ export default function HomePage() {
                   </div>
                   <Link
                     href={`/live-classes/${class_.id}`}
-                    className="flex-shrink-0 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                    className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300 text-center sm:text-left"
                   >
                     Join Class
                   </Link>
@@ -295,7 +295,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-8 sm:mt-12">
             <Link
               href="/live-classes"
               className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800"
