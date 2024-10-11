@@ -1,5 +1,7 @@
 # TutorialReady
 
+![Thumbnail](repo/thumbnail.png)
+
 **TutorialReady** is an online learning platform designed to provide students, instructors, and other users with access to high-quality educational content, live classes, and a community for collaborative learning. This project is a robust and user-friendly platform that facilitates seamless course management, resource sharing, and real-time communication between users.
 
 This project is built for a client and is licensed under the **GNU Affero General Public License v3.0 (AGPL)**, ensuring that all modifications and improvements made to the platform must also be shared under the same license when distributed.
