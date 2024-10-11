@@ -33,6 +33,22 @@ This project is built for a client and is licensed under the **GNU Affero Genera
 - **Sign Up Page**: Allows users to register with role-based access (student, guardian, instructor, etc.), and includes email validation and confirmation.
 - **Login Page**: Facilitates user authentication with password recovery options.
 
+## Screenshots
+
+Here are some screenshots of the platform:
+
+### Home Page
+
+![Home Page](repo/homepage.png)
+
+### Courses Page
+
+![Courses Page](repo/courses.png)
+
+### Course Details Page
+
+![Course Details Page](repo/course-details.png)
+
 ## License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL)**. Please refer to the `LICENSE` file for detailed information.
