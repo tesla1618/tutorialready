@@ -98,7 +98,7 @@ export default function HomePage() {
     },
   ];
 
-  const handleNewsletterSubmit = (e) => {
+  const handleNewsletterSubmit = (e: any) => {
     e.preventDefault();
     // Handle newsletter subscription
     console.log("Newsletter subscription:", email);
