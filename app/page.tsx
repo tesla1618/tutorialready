@@ -27,7 +27,7 @@ export default function HomePage() {
       rating: 4.8,
       students: 1234,
       price: "$49.99",
-      image: "/api/placeholder/400/250",
+      image: "https://placehold.co/400",
       category: "Programming",
     },
     {
@@ -37,7 +37,7 @@ export default function HomePage() {
       rating: 4.9,
       students: 2345,
       price: "$59.99",
-      image: "/api/placeholder/400/250",
+      image: "https://placehold.co/400",
       category: "Data Science",
     },
     {
@@ -47,7 +47,7 @@ export default function HomePage() {
       rating: 4.7,
       students: 1876,
       price: "$39.99",
-      image: "/api/placeholder/400/250",
+      image: "https://placehold.co/400",
       category: "Marketing",
     },
   ];
@@ -59,7 +59,7 @@ export default function HomePage() {
       instructor: "Sarah Wilson",
       date: "2024-10-15",
       time: "10:00 AM EST",
-      image: "/api/placeholder/400/250",
+      image: "https://placehold.co/400",
     },
     {
       id: 2,
@@ -67,7 +67,7 @@ export default function HomePage() {
       instructor: "David Chen",
       date: "2024-10-16",
       time: "2:00 PM EST",
-      image: "/api/placeholder/400/250",
+      image: "https://placehold.co/400",
     },
   ];
 
