@@ -49,6 +49,15 @@ Here are some screenshots of the platform:
 
 ![Course Details Page](repo/course-details.png)
 
+### Articles Page
+
+![Article Page](repo/articles.png)
+
+### Articles Details Page
+
+![Article Details Page 1](repo/article-details-1.png)
+![Article Details Page 2](repo/article-details-2.png)
+
 ## License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL)**. Please refer to the `LICENSE` file for detailed information.
