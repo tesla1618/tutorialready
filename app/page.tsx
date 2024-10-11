@@ -76,7 +76,7 @@ export default function HomePage() {
       id: 1,
       name: "Emily Thompson",
       role: "Student",
-      image: "/api/placeholder/80/80",
+      image: "https://placehold.co/400",
       content:
         "TutorialReady has transformed my learning journey. The quality of instruction and the interactive platform make learning enjoyable and effective.",
     },
@@ -84,7 +84,7 @@ export default function HomePage() {
       id: 2,
       name: "Michael Chen",
       role: "Professional Developer",
-      image: "/api/placeholder/80/80",
+      image: "https://placehold.co/400",
       content:
         "The live classes and community support have helped me stay motivated and achieve my learning goals. Highly recommended!",
     },
@@ -92,7 +92,7 @@ export default function HomePage() {
       id: 3,
       name: "Sofia Rodriguez",
       role: "Career Switcher",
-      image: "/api/placeholder/80/80",
+      image: "https://placehold.co/400",
       content:
         "Thanks to TutorialReady, I successfully transitioned into tech. The structured curriculum and hands-on projects were invaluable.",
     },
